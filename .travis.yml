@@ -1,0 +1,9 @@
+language: python
+deploy:
+  provider: snap
+  token: SNAP_TOKEN
+  edge: true
+  on:
+    branch: main
+ script:
+   - echo "Hello_world"
